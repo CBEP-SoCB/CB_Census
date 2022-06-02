@@ -42,7 +42,7 @@ as follows:
 3.  Open CSV file in Excel  
     *  Sort by SUMLEV.  
     *  Delete other categories  
-    *  Save as "ME_Town_Pop_Est 2010.2019.csv"  
+    *  Save as "ME_Town_Pop_Est 2010.2019.csv"  (Not retained here.)
 
 4.  These data can be matched up with Casco Bay Town data by matching county 
     subunit codes.  Unfortunately, the codes in the GIS layer are character 
@@ -123,10 +123,12 @@ data as follows:
 |  CENSUS2010POP       |
 |  POPESTIMATE2010     |
 
+    *  Save as "ME_Town_Pop_Est 2000.2010.csv"  (Not retained here.)
+ 
+
 4.  Import 2000-2010 estimates into ArcGIS.
-    *  Join with the Casco_Bay_Towns_Land.shp geographic data b
-    matching 
-    `MatchCode` from the GIS data with `COSUB` from these data
+    *  Join with the Casco_Bay_Towns_Land.shp geographic data by
+    matching `MatchCode` from the GIS data with `COSUB` from these data.
     
 5.  Export attribute table as "CB_Town_Pop_Est_2000.2010.csv"  This adds
     Geographic Codes and details from GIS to the exported data.
@@ -162,7 +164,7 @@ and combine them column wise, as follows:
     across the U.S  Census years, so you need to keep both before and after 
     census population estimates for consistency.  Note that Estimates Base, 
     Estimates, and Census numbers for the same year are not the same.  
-    Differences are generallysmall, but not zero.
+    Differences are generally small, but not zero.
 
    *  ESTIMATESBASE2000 -> Base 2000
    *  POPESTIMATE2000   -> Estimate 2000

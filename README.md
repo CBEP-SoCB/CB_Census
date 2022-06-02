@@ -14,41 +14,32 @@ watershed.
 
 # Statement of Purpose
 CBEP is committed to the ideal of open science.  Our State of the Bay data
-archives ensure the science underlying the 2020 State of the Bay report is
-documented and reproducible by others. The purpose of these archives is to
-release raw data and data analysis code whenever possible to allow others to
+archives ensure the science underlying the 2020/2021 State of Casco Bay report
+is documented and reproducible by others. The purpose of these archives is to
+release  data and data analysis code whenever possible to allow others to
 review, critique, learn from, and build upon CBEP science.
 
 # Archive Structure
-CBEP 2020 State of the Bay data analysis repositories are divided into from two
-to four sub-folders.  All archives contain at least an "Original_Data" and a
-"Graphics" folder.  The other two folders are only included if necessary.
+CBEP 2020/2021 State of the Bay data analysis summaries contain a selection of 
+data,  data analysis code, and visualization code as used to produce 
+results shared via our most recent State of Casco Bay report. Usually, these
+archives are organized into two or three folders, including the following:
 
-- Original Data.  Original data, with a "DATA_SOURCES.md" or "READ ME.txt" file 
-that documents data sources.
-**DATA IN THIS FOLDER IS AS ORIGINALLY PROVIDED OR ACCESSED.** 
+- Data.  Contains data in simplified or derived form as used in our
+data  analysis.  Associated metadata is contained in related Markdown documents,
+usually `DATA_SOURCES.md` and `DATA_NOTES.md`.
 
-- Derived Data.  Data derived from the original raw data.  Includes
-documentation of data reorganization steps, either in the form of files (R
-notebooks, Excel files, etc.) that embody data transformations, or via README.md
-or DATA_NOTES.md files.
+- Analysis.  Contains one or more R Notebooks proceeding through the principal
+data analysis steps that underpin SoCB reporting. To simplify the archives,
+much preliminary analysis, and many analysis "dead ends" have been omitted. 
 
-- Analysis.  Contains one or more R Notebooks or other files proceeding through 
-the data analysis steps. This often includes both preliminary data analysis --
-principally graphical, and detailed analysis where necessary.
-
-- Graphics.  Contains files stepping through development of graphics, and
+- Graphics.  Contains R Notebooks stepping through development of graphics, and
 also copies of resulting graphics, usually in \*.png and \*.pdf formats.  These
 graphics may differ from graphics as they appear in final State of the Bay
-graphical layouts.
+graphical layouts. Again, most draft versions of graphics have been omitted for 
+clarity.
 
 # Summary of Data Sources
-All data presented here are ultimately derived from U.S. Census data, but data
-was accessed both directly from the U.S. Census website, and also indirectly 
-(for historical data) from The National Historical Geographic Information 
-System (NHGIS) https://www.nhgis.org/.  
-
-Users are not permitted to redistribute NHGIS data, so original data is not 
-available for data accessed through their service. Only data accessed directly
-from teh US Census website are included in this archive, although some data 
-derived from NHGIS data are presented in the "Derived Data" folder.
+All data presented here are derived from U.S. Census data, including the 
+American COmmunity Survey, whic provides estimates of population for years
+not covered by decennial census.
