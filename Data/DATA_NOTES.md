@@ -1,5 +1,5 @@
 # Data Preparation
-Much of this data preparation workflow was conducted by hand. Automated data
+Much of this data preparation work flow was conducted by hand. Automated data
 preparation in R would be easier to check and QA/QC, but at the time we
 imported these data, we had not shifted fully to using automated data QA/QC and
 transformation.
@@ -199,7 +199,7 @@ This leaves us with the following data columns:
 |  ALAND                |  Area of Land within the Census Area (usually a town)
 |  AWATER               |  Area of Water within the Census Area (usually a town)
 |  COUSUB               |  Match Code for this specific Geography in Census Records
-|  Base 2000            |  Base used to caculate ACS population estimates 2000-2010
+|  Base 2000            |  Base used to calculate ACS population estimates 2000-2010
 |  Estimate 2000        |  ACS Population Estimates
 |  Estimate 2001        |
 |  Estimate 2002        |

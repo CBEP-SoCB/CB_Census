@@ -41,5 +41,5 @@ clarity.
 
 # Summary of Data Sources
 All data presented here are derived from U.S. Census data, including the 
-American COmmunity Survey, whic provides estimates of population for years
+American COmmunity Survey, which provides estimates of population for years
 not covered by decennial census.
